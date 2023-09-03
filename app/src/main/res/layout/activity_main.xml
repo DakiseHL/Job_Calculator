@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/campoSueldo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Salario Base"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/campoBonoDecreto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Bono Decreto"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/campoHorasExtras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Horas Extras"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/campoCombo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Combo 1 "
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/campoCombo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Combo 2"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/campoCombo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Combo3"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/campoProductos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Productos Vendidos"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/campoTotalClientas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Total Clientas"
+        android:inputType="number" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="22dp" />
+
+    <TextView
+        android:id="@+id/vistaTotalDescuentos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Descuentos" />
+
+    <TextView
+        android:id="@+id/vistadescIgss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Igss" />
+
+    <TextView
+        android:id="@+id/campoVistadesIgss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/VistaDescIsr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ISR" />
+
+    <TextView
+        android:id="@+id/campoVistaDescISR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/totalSueldo"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Total Sueldo"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="44dp" />
+
+    <TextView
+        android:id="@+id/vistaTotalSueldo"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:gravity="center" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="12dp" />
+
+    <Button
+        android:id="@+id/botonCalcular"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Calcular" />
+
+</LinearLayout>
